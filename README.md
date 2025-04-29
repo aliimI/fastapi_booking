@@ -1,6 +1,25 @@
 # FastAPI Booking App
 Booking backend functionality built with FastAPI, designed to be clean, scalable, and production-ready. It supports full authentication, background task processing, admin panel integration, and includes a minimal frontend via Jinja2 for basic UI interaction.
 
+## Project architecture
+### Auth API
+* __registration__
+* __authorization__
+* __authentication__ (JWT Tokens)
+
+### Hotels API
+* __getting hotels__ (Request caching)
+* __GET, POST, PUT, PATCH, DELETE methods__
+* __business logic layer__
+* __database work layer__
+
+### Booking API
+* __room booking__
+* __error handling__
+
+### File API
+* __Hotel image uploading__ (celery background tasks)
+
 ## Features
 * __JWT-based Auth__ — secure login/registration via JSON Web Tokens
 * __PostgreSQL Database__ — structured using SQLAlchemy ORM and Alembic for migrations
