@@ -1,6 +1,5 @@
 from fastapi import HTTPException, status
 
-
 UserAlreadyExistsException = HTTPException(
     status_code=status.HTTP_409_CONFLICT,
     detail="Пользователь уже существует",
@@ -23,7 +22,7 @@ TokenAbsentException = HTTPException(
 
 IncorrectTokenException = HTTPException(
     status_code=status.HTTP_401_UNAUTHORIZED,
-    detail="Неверный формат токена"
+    detail="Неверный форматик токена"
 )
 
 UserIsNotPresentException = HTTPException(status_code=status.HTTP_401_UNAUTHORIZED)

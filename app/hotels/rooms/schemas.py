@@ -1,5 +1,7 @@
-from pydantic import BaseModel, ConfigDict
 from typing import Optional
+
+from pydantic import BaseModel, ConfigDict
+
 
 class SRooms(BaseModel):
     id: int

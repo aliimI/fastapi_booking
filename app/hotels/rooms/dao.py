@@ -1,7 +1,9 @@
-from app.database import async_session_maker
 from sqlalchemy import select
+
 from app.dao.base import BaseDAO
+from app.database import async_session_maker
 from app.hotels.rooms.models import Rooms
+
 
 class RoomDAO(BaseDAO):
     model = Rooms

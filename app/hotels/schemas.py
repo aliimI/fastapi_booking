@@ -1,4 +1,4 @@
-
+from typing import List
 
 from pydantic import BaseModel, ConfigDict
 
@@ -7,7 +7,7 @@ class SHotels(BaseModel):
     id: int
     name: str
     location: str
-    services: str
+    services: List[str]
     rooms_quantity: int
     image_id: int
 

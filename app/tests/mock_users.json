@@ -1,0 +1,17 @@
+[
+    {
+     
+      "email": "john@gmail.com",
+      "hashed_password": "here_hashed_password_1"
+    },
+    {
+     
+      "email": "bob@gmail.com",
+      "hashed_password": "here_hashed_password_2"
+    },
+    {
+      
+      "email": "test@test.com",
+      "hashed_password": "$2b$12$q2Ddvmlbdjo0nem.0QSGw.7t7WPdQQmOojgAHHkOwV3L0NO1ZghWy"
+    }
+  ]
